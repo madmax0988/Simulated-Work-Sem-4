@@ -1,9 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
 .grid {
     border: 1px solid black;
     height: 180px;
     width: 180px;
     display: flex;
     flex-wrap: wrap;
+    margin: 20px auto;
 }
 
 .grid div {
@@ -18,6 +24,7 @@
 .starting-block {
     background-color: blue;
 }
+
 .l1, .l2, .l3 {
     background-color: brown;
 }
